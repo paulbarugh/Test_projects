@@ -1,0 +1,188 @@
+/******************************
+BASE STYLES
+*******************************/
+
+img {
+    max-width: 100%;
+}
+
+body,
+hmtl {
+    font-family: 'Nunito', sans-serif;
+    color: dimgray;
+    background: white;
+    min-height: 100%;
+    min-width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h1, h2, h3 {
+        color: #5c205c;
+}
+
+p {
+    margin-top: 0;
+}
+
+
+/******************************
+TOPNAV  LAYOUT
+*******************************/
+
+#mytopnav {
+    background-color: white;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    display: inline-block;
+    color: #5c205c;
+    text-align: center;
+    padding: 40px 28px 40px 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.mytopnav2 {
+    max-width: 640px;
+    margin: auto;
+}
+
+.topnav a:hover {
+    background-color: #E8E8EE;
+    color: black;
+}
+
+
+/******************************
+LOGO  LAYOUT
+*******************************/
+
+.logo li {
+    padding: 0px 0px;
+    list-style-type: none;
+    vertical-align: bottom;
+}
+
+#logo {
+    height: 100px;
+    width: 200px;
+    vertical-align: bottom;
+    margin: 0 0;
+}
+
+.logo {
+    display: inline-block;
+    align-content: center;
+    vertical-align: bottom;
+    margin: 0 0;
+    padding: 0 0;
+    cursor: pointer;
+    cursor: hand;
+}
+
+
+/******************************
+SUBNAV  LAYOUT
+*******************************/
+
+.subnav {
+    background-color: #5d1760;
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+.subnav a {
+    display: inline-block;
+    color: floralwhite;
+    text-align: center;
+    padding: 14px 14px 14px 14px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.mysubnav2 {
+    max-width: 640px;
+    margin: auto;
+}
+
+.subnav a:hover {
+    background-color: white;
+    color: #5c205c;
+}
+
+
+/******************************
+PAGE  LAYOUT
+*******************************/
+
+.content {
+    text-align: justify;
+    margin: auto;
+}
+
+.paragraph {
+    padding: 14px 28px 14px 14px;
+    max-width: 640px;
+    margin: auto
+}
+
+.paragraph2 {
+    background-color: #E8E8EE;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+/******************************
+FOOTER  LAYOUT
+*******************************/
+
+footer {
+    background-color: #5c205c;
+    margin: 50px 0px 0px 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-list {
+    display: inline-block;
+    list-style-type: none;
+    margin: auto;
+    text-align: left;
+    padding: 14px 28px 14px 14px;
+}
+
+.footer2 {
+    max-width: 640px;
+    margin: auto;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+}
