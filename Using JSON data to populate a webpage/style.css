@@ -1,0 +1,148 @@
+    .wrapper {
+        box-sizing: border-box;
+        max-width: 80%;
+        align-content: center;
+        margin: auto;
+        padding: 15px 15px;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0px
+    }
+    
+    h1 {
+        text-align: left;
+        color: darkslategrey;
+    }
+    
+    @media screen and (max-width: 1920px) {
+        /* comes into effect for screens less than or equal to 1920 pixels */
+        #main {
+            box-sizing: border-box;
+            float: left;
+            padding: 15px 15px;
+            max-width: 75%;
+            flex: auto;
+            flex-flow: column overflow:hidden
+        }
+        #main p {
+            text-align: justify;
+            padding-bottom: 50px;
+        }
+        #side {
+            box-sizing: border-box;
+            padding: 15px 15px;
+            float: left;
+            max-width: 25%;
+            flex: auto;
+            flex-direction: column;
+            font-size: small;
+            overflow: hidden;
+        }
+        #side p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            line-height: 16px;
+            /* fallback */
+            -webkit-line-clamp: 4;
+            /* number of lines to show */
+            -webkit-box-orient: vertical;
+            text-align: justify;
+        }
+        #main::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        #side::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    }
+    
+    @media screen and (min-width: 800px) and (max-width: 1080px) {
+        /* comes into effect for screens between 800 and 1080 pixels (inclusive) */
+        #main {
+            box-sizing: border-box;
+            float: left;
+            padding: 15px 15px;
+            max-width: 100%;
+            flex: auto;
+            flex-flow: column;
+            overflow: hidden;
+        }
+        #main h1 {
+            font-size: 20pt;
+        }
+        #side {
+            display: flex;
+            flex-direction: row;
+            max-width: 100%;
+        }
+        #side div {
+            width: 100%;
+        }
+        #side img {
+            width: 100%;
+            height: 100px;
+            padding: 5px;
+        }
+        #side p {
+            padding: 5px;
+            text-overflow: clip;
+        }
+        #main::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        #side::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    }
+    
+    @media screen and (min-width: 320px) and (max-width: 800px) {
+        /* comes into effect for screens between 320 and 800 pixels (inclusive) */
+        #main {
+            box-sizing: border-box;
+            float: left;
+            padding: 15px 15px;
+            max-width: 100%;
+            flex: auto;
+            flex-flow: column;
+            overflow: hidden;
+        }
+        #main h1 {
+            font-size: 20pt;
+        }
+        #side {
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+        }
+        #side div {
+            width: 100%;
+        }
+        #side img {
+            width: 100%;
+            height: auto;
+            padding: 5px;
+        }
+        #side p {}
+        #main::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        #side::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    }

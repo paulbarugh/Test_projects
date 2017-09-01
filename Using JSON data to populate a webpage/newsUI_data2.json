@@ -1,0 +1,28 @@
+{
+	"headlines": [{
+		"imageUrl": "http://www.infor.com/design2012/images/articles/Habitat-St-Paul-2016-newsfeed-614x261.jpg",
+		"Title": "Habitat Work Camp—A Newbie’s View",
+		"Text": "Andy Knudsen, Infor CloudSuite sales rep, was one of the newbies at a recent week-long Habitat for Humanity work camp in St. Paul, Minnesota. Up to 15 Infor volunteers a day worked on a two-story house in the Frog Town neighborhood."
+	},
+	{
+		"imageUrl": "http://d9d08mpa55smw.cloudfront.net/wp-content/uploads/20161017164746/inforum-stage.jpg",
+		"Title": "The Inforum Experience",
+		"Text": "Discover. Connect. Transform. Be inspired. At Inforum 2017, you’ll have endless opportunities to expand your knowledge, learn about the latest trends impacting your industry, and build strategies for the future."
+	}],
+	"articles": [{
+		"imageUrl": "http://blogs.infor.com/insights/wp-content/uploads/sites/34/2016/09/retail-Young-Man-Buying-Bicycle_iStock_gl497x373-300x225.jpg",
+		"Text": "During a recent American Marketing Association webcast, “Are you talking to me?”, two marketing and industry experts explored this topic in depth. Chip Coyle, Infor CMO, and Lisa Nirell, chief energy officer at Energize Growth, outlined how the shift to customer journey modeling—rather than a focus on singular metric-driven touchpoints—affects every marketing function and can drive significant revenue growth."
+	},
+	{
+		"imageUrl": "http://blogs.infor.com/insights/wp-content/uploads/sites/34/2016/08/Albuquerque-2-300x206.jpg",
+		"Text": "Albuquerque Public Schools is being honored with a 2016 Infor Excellence in Action Award for Financial Excellence. The school district accepted the award onstage during General Session at Inforum 2016, Infor’s biggest user conference of the year in New York City."
+	},
+	{
+		"imageUrl": "http://blogs.infor.com/insights/wp-content/uploads/sites/34/2016/09/distro_ship-cargo-crates-350x265-300x227.jpg",
+		"Text": "The bankruptcy of Hanjin Shipping Co., one of the world’s largest ocean container carriers, has had far- reaching impact on global trade. Overnight, 150,000 20-foot-equivalent unit containers (TEU) were removed from trade between Asia and the Mediterranean. Between Asia and North America, 240,000 TEUs were lost. In the week that followed, 90 vessels were seized or stranded."
+	},
+	{
+		"imageUrl": "http://blogs.infor.com/insights/wp-content/uploads/sites/34/2016/09/hospitality-restaurant-staff-Plating-Up-food-chefs-kitchen_iStock_NewsFeed_614x261-300x128.jpg",
+		"Text": "Finding and retaining skilled staff continues to be one of the greatest challenges faced by the hospitality industry. And paying above the national living wage is not necessarily enough to attract the right calibre of staff."
+	}]
+}

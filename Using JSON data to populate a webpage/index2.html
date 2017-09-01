@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<!--
+***EXPLANATION***
+I tried a different approach this time and managed to find a way to assign functions to the JSON objects and then use variables to wrap them in html tags. This meant that I was able to apply CSS styling to each tag independant of the others. While still not perfect and lacking in functionaltiy I was able to make the webpage responsive, as well as display images for the first time by attaching a snippet to the img tags. -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Infor Project">
+    <meta name="author" content="Paul Barugh">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js">
+    </script>
+
+    <script>
+        $(function() {
+            var mainContent = [];
+            $.getJSON('newsUI_data2.json', function(main) 
+            {
+                    $.each(main.headlines, function(i, f) {
+                    var mainSec = "<div>" + "<img src='" + f.imageUrl + "' / >" + "</img>" +
+                    "<h1>" + f.Title + "</h1>" + "<p>" + f.Text + "</p>" + "</div>"
+                    $(mainSec).appendTo("#main");
+                });
+            });
+        });
+
+                            
+        $(function() {
+            var sideContent = [];
+            $.getJSON('newsUI_data2.json', function(side) 
+            {
+                    $.each(side.articles, function(a, b) {  
+                        var sideSec = "<div>" + "<div>" + "<img src='" + b.imageUrl + "' / >" + "</div>" + "<p>" + b.Text + "</p>" + "</div>"
+                    $(sideSec).appendTo("#side");
+                });
+            });
+        });
+    
+    </script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div id="main" class="container"></div>
+        <div id="side" class="container"></div>
+    </div>
+
+</body>
+</html>
